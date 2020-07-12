@@ -25,7 +25,7 @@ const Home = () => (
     <AboutContainer>
       <AboutText>
         <p>
-          I'm Noah Covey 😄, a sophomore at Harvard College and a full-stack software engineer at Harvard Student Agencies' <a href="http:/ / hsadev.com" target="_blank">DEV</a>,
+          I'm Noah Covey 😄, a sophomore at Harvard College and a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
           an entirely student-run web and mobile development startup. Previously, I've done research at the <a href="https://gtri.gatech.edu" target="_blank">Georgia Tech 
           Research Institute</a> and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
         </p>
