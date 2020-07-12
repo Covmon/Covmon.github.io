@@ -20,7 +20,7 @@ const Home = () => (
       <h1>I'M <span>NOAH COVEY 👋</span></h1>
     </TitleContainer>
     <SubtitleContainer>
-      <h3>fullstack engineer <a href="http://hsadev.com" target="_blank">@HSA DEV</a> and applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a></h3>
+      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and fullstack engineer <a href="http://hsadev.com" target="_blank">@HSA DEV</a></h3>
     </SubtitleContainer>
     <AboutContainer>
       <AboutText>
