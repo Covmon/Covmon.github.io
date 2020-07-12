@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f361e03.chunk.css",
+    "main.js": "/static/js/main.7794d231.chunk.js",
+    "main.js.map": "/static/js/main.7794d231.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a223cb7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a223cb7.js.map",
+    "static/js/2.edca9dfc.chunk.js": "/static/js/2.edca9dfc.chunk.js",
+    "static/js/2.edca9dfc.chunk.js.map": "/static/js/2.edca9dfc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1817d405c8a01e0607d231e041129a24.js": "/precache-manifest.1817d405c8a01e0607d231e041129a24.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.edca9dfc.chunk.js.LICENSE.txt": "/static/js/2.edca9dfc.chunk.js.LICENSE.txt",
+    "static/media/amazon_boats.jpeg": "/static/media/amazon_boats.037bd63b.jpeg",
+    "static/media/bachelor.jpeg": "/static/media/bachelor.f33d0dcb.jpeg",
+    "static/media/bryce_shadow.jpeg": "/static/media/bryce_shadow.33509a45.jpeg",
+    "static/media/bryce_sunset.jpeg": "/static/media/bryce_sunset.963945de.jpeg",
+    "static/media/cairn.jpeg": "/static/media/cairn.dce0bc7a.jpeg",
+    "static/media/cruise_ship.jpeg": "/static/media/cruise_ship.c424edae.jpeg",
+    "static/media/denali.jpeg": "/static/media/denali.941c679d.jpeg",
+    "static/media/dog.jpeg": "/static/media/dog.f0ad6ad5.jpeg",
+    "static/media/eagle.jpeg": "/static/media/eagle.8a93b34d.jpeg",
+    "static/media/frog.jpeg": "/static/media/frog.f4ab4d9d.jpeg",
+    "static/media/glacier.jpeg": "/static/media/glacier.5e77d354.jpeg",
+    "static/media/gorge.jpeg": "/static/media/gorge.6aeabcab.jpeg",
+    "static/media/machu.jpeg": "/static/media/machu.64751299.jpeg",
+    "static/media/me_glacier.jpeg": "/static/media/me_glacier.e1032765.jpeg",
+    "static/media/monkey.jpeg": "/static/media/monkey.25e94c9a.jpeg",
+    "static/media/nevada_sunset.jpeg": "/static/media/nevada_sunset.e3146c7c.jpeg",
+    "static/media/profile.jpeg": "/static/media/profile.b5b0ba27.jpeg",
+    "static/media/river_sunset.jpeg": "/static/media/river_sunset.8bb875bc.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a223cb7.js",
+    "static/js/2.edca9dfc.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7794d231.chunk.js"
+  ]
+}
