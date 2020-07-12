@@ -81,6 +81,10 @@ export const AboutText = styled.div`
   }
 `
 
+export const Buttons = styled.div`
+  display: flex;
+`
+
 export const ProfileImage = styled.img`
   width: 22%;
   height: 33%;
@@ -109,7 +113,7 @@ export const ContactContainer = styled.div`
   align-items: flex-start;
   color: #eeeeee;
   background-color: #222831;
-  padding: 40px 120px 80px 120px;
+  padding: 40px 120px 200px 120px;
   border-bottom: 13px solid #32e0c4;
   
   h1 {

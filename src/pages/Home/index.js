@@ -10,7 +10,7 @@ import profileImage from '../../photos/profile.jpeg'
 
 import { PageContainer, TitleContainer, SubtitleContainer, 
   AboutContainer, AboutText, ProfileImage, PortfolioContainer,
-  PortfolioItems, ContactContainer, Socials, Footer,
+  PortfolioItems, ContactContainer, Socials, Footer, Buttons,
 } from './styles'
 import PortfolioItem from '../../components/PortfolioItem'
 
@@ -35,9 +35,14 @@ const Home = () => (
           and all things music 🎶. I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
           I'm always on the lookout for my next <Link to="/photos">adventure</Link>. I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
-        <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
-          <Button text="Résumé" />
-        </a>
+        <Buttons>
+          <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
+            <Button text="Resumé" />
+          </a>
+          <a href="#contact">
+            <Button text="Contact" />
+          </a>
+        </Buttons>
         
       </AboutText>
       <ProfileImage src={profileImage} />
@@ -88,7 +93,7 @@ const Home = () => (
           />
       </PortfolioItems>
     </PortfolioContainer>
-    <ContactContainer>
+    <ContactContainer id="contact">
       <h1>Contact me ☎️</h1>
       <h3>✉️ <a href="mailto:ncovey@college.harvard.edu">ncovey@college.harvard.edu</a></h3>
       <Socials>
