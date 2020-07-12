@@ -26,7 +26,8 @@ export const SubtitleContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-top: 13px solid #2cc9b0;
-  color: #eeeeee;padding: 20px 120px;
+  color: #eeeeee;
+  padding: 20px 120px;
   background-color: #393e46;
   border-bottom: 13px solid #f3c623;
 
@@ -91,6 +92,7 @@ export const PortfolioContainer = styled.div`
   color: #eeeeee;
   background-color: #222831;
   padding: 40px 120px;
+
   h1 {  
     font-size: 24px;
   }
@@ -99,4 +101,49 @@ export const PortfolioContainer = styled.div`
 export const PortfolioItems = styled.div`
   display: flex;
   flex-wrap: wrap;
+`
+
+export const ContactContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #eeeeee;
+  background-color: #222831;
+  padding: 40px 120px 80px 120px;
+  border-bottom: 13px solid #32e0c4;
+  
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {  
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+      color: #f3c623; 
+      transition: 0.25s all; 
+
+      &:hover { 
+        box-shadow: inset 0 -0.45em 0 rgba(243,198,35, 0.5);  
+      }
+    }
+  }
+`
+
+export const Socials = styled.div`
+  display: flex;
+
+  >* {
+    margin-right: 20px;
+  }
+`
+
+export const Footer = styled.div`
+  display: flex;
+  justify-content: center;
+  border-top: 13px solid #2cc9b0;
+  color: #eeeeee;padding: 20px 120px;
+  background-color: #393e46;
+  padding: 45px;
 `

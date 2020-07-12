@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react' 
 import { Link } from 'react-router-dom'
+import { SocialIcon } from 'react-social-icons'
 
 import Button from '../../components/Button'
 
@@ -9,7 +10,7 @@ import profileImage from '../../photos/profile.jpeg'
 
 import { PageContainer, TitleContainer, SubtitleContainer, 
   AboutContainer, AboutText, ProfileImage, PortfolioContainer,
-  PortfolioItems,
+  PortfolioItems, ContactContainer, Socials, Footer,
 } from './styles'
 import PortfolioItem from '../../components/PortfolioItem'
 
@@ -87,6 +88,20 @@ const Home = () => (
           />
       </PortfolioItems>
     </PortfolioContainer>
+    <ContactContainer>
+      <h1>Contact me ☎️</h1>
+      <h3>✉️ <a href="mailto:ncovey@college.harvard.edu">ncovey@college.harvard.edu</a></h3>
+      <Socials>
+        <SocialIcon url="https://linkedin.com/in/noahcovey" fgColor="#fff" />
+        <SocialIcon url="https://github.com/covmon" bgColor="#2cc9b0" fgColor="#fff" />
+        <SocialIcon url="https://instagram.com/noahcovey1" bgColor="#DD2A7B" fgColor="#fff" />
+        <SocialIcon url="https://twitter.com/noah_covey" fgColor="#fff" />
+        <SocialIcon url="https://soundcloud.com/noahcovey" fgColor="#fff" />
+      </Socials>
+    </ContactContainer>
+    <Footer>
+      designed and built with ❤️ by me // last updated Jul 2020
+    </Footer>
   </PageContainer>
 )
   
