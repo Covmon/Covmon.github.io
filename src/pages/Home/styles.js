@@ -61,17 +61,21 @@ export const AboutText = styled.div`
   line-height: 25px;
   margin-right: 40px;
 
-  p {  
-    margin: 0 0 20px 0;
+  a {
+    color: white;
+    text-decoration: none;
   }
 
-  a {  
-    color: #f3c623; 
-    text-decoration: none; 
-    transition: 0.25s all; 
+  p {  
+    margin: 0 0 20px 0;
 
-    &:hover { 
-      box-shadow: inset 0 -.45em 0 rgba(243,198,35, 0.5);  
+    a {  
+      color: #f3c623; 
+      transition: 0.25s all; 
+
+      &:hover { 
+        box-shadow: inset 0 -.45em 0 rgba(243,198,35, 0.5);  
+      }
     }
   }
 `

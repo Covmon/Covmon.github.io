@@ -4,7 +4,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Button from '../../components/Button'
+
 import profileImage from '../../photos/profile.jpeg'
+import resume from '../../files/resume.pdf'
+
 import { PageContainer, TitleContainer, SubtitleContainer, 
   AboutContainer, AboutText, ProfileImage, PortfolioContainer,
   PortfolioItems,
@@ -15,7 +18,7 @@ const Home = () => (
   <PageContainer>
     <TitleContainer>
       <h1>HI,</h1>
-      <h1>I'M <span>NOAH COVEY👋</span></h1>
+      <h1>I'M <span>NOAH COVEY 👋</span></h1>
     </TitleContainer>
     <SubtitleContainer>
       <h3>fullstack engineer <a href="http://hsadev.com" target="_blank">@HSA DEV</a> and applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a></h3>
@@ -28,11 +31,14 @@ const Home = () => (
           Research Institute</a> and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
         </p>
         <p>
-          I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>
+          I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
           and all things music 🎶. I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
           I'm always on the lookout for my next <Link to="/photos">adventure</Link>. I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
-        <Button text="Résumé" />
+        <a href={resume} target="_blank">
+          <Button text="Résumé" />
+        </a>
+        
       </AboutText>
       <ProfileImage src={profileImage} />
     </AboutContainer>
