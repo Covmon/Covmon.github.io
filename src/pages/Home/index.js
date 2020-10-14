@@ -21,18 +21,23 @@ const Home = () => (
       <h1>I'M <span>NOAH COVEY 👋</span></h1>
     </TitleContainer>
     <SubtitleContainer>
-      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and fullstack engineer <a href="http://hsadev.com" target="_blank">@HSA DEV</a></h3>
+      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and lead developer <a href="http://carriersource.io" target="_blank">@CarrierSource</a></h3>
     </SubtitleContainer>
     <AboutContainer>
       <AboutText>
         <p>
-          I'm Noah Covey 😄, a sophomore at Harvard College and a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
-          an entirely student-run web and mobile development startup. Previously, I've done research at the <a href="https://gtri.gatech.edu" target="_blank">Georgia Tech 
-          Research Institute</a> and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
+          I'm Noah Covey 😄, a sophomore on leave from Harvard College. Currently, I'm the lead developer at <a href="http://carriersource.io" target="_blank">CarrierSource</a>,
+          an early-stage startup whose goal is to bring transparency and intelligence to the logistics industry through reviews, big data, and user-centric design. I am also 
+          currently a business development intern at RF Imaging company <a href="http://vayyar.com" target="_blank">Vayyar</a>.
+        </p>
+        <p>
+          Previously, I've worked as a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
+          done VR/AR research at the <a href="https://gtri.gatech.edu" target="_blank">Georgia Tech 
+          Research Institute</a>, and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
         </p>
         <p>
           I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
-          and all things music 🎶. I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
+          and all things music 🎶. (My band Lucy and the Glassmen's EP is out soon!) I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
           I'm always on the lookout for my next <Link to="/photos">adventure</Link>. I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
         <Buttons>
@@ -107,7 +112,7 @@ const Home = () => (
       </Socials>
     </ContactContainer>
     <Footer>
-      designed and built with ❤️ by me // last updated Jul 2020
+      designed and built by me // last updated Oct 2020
     </Footer>
   </PageContainer>
 )
