@@ -53,7 +53,7 @@ const Home = () => (
         <PortfolioItem 
           title="Carrier Source" 
           description="Logistics platform for brokers to search through hundreds of thousands of trucking carriers, and for carriers to manage their reviews and company profile."
-          link="https://staging.carriersource.io"
+          link="https://carriersource.io"
           highlight
         />
         <PortfolioItem
