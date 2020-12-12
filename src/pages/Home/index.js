@@ -37,7 +37,7 @@ const Home = () => (
         </p>
         <p>
           I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
-          and all things music 🎶. (My band Lucy and the Glassmen's EP is out soon!) I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
+          and all things music 🎶. (My band <a href="https://youtu.be/wfoVsbOhEqA" target="_blank">Lucy and the Glassmen</a>'s EP is out soon!) I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
           I'm always on the lookout for my next <Link to="/photos">adventure</Link>. I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
         <Buttons>
