@@ -1,3 +1,10 @@
+### Deployment!
+To update the site:
+1) Make sure `master` is up-to-date with a `git pull`.
+2) Checkout `source` and edit files.
+3) Run `npm run deploy` to deploy to master (this will automatically `npm run build` to build the production bundle).
+
+### Create React App boilerplate
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
