@@ -21,16 +21,19 @@ const Photos = () => {
         <h1>{"TRAVEL & PHOTOS 📷"}</h1>
       </TitleContainer>
       <SubtitleContainer>
-        <h3>
-        ⬅️ <Link to="/">back home</Link>&#8226;
-        <a href="#wyoming">wyoming</a>&#8226;
-        <a href="#france">paris</a>&#8226;
-        <a href="#switzerland">switzerland</a>&#8226;
-        <a href="#israel">israel</a>&#8226;
-        <a href="#utah">utah</a>&#8226;
-        <a href="#peru">peru</a>&#8226;
-        <a href="#alaska">alaska</a>
-        </h3>
+        <div>
+          <div>⬅️ <Link to="/">back home</Link></div>
+          <div><span>&#8226;</span><a href="#italy">italy</a></div>
+          <div><span>&#8226;</span><a href="#brazil">brazil</a></div>
+          <div><span>&#8226;</span><a href="#hawaii">hawaii</a></div>
+          <div><span>&#8226;</span><a href="#wyoming">wyoming</a></div>
+          <div><span>&#8226;</span><a href="#france">paris</a></div>
+          <div><span>&#8226;</span><a href="#switzerland">switzerland</a></div>
+          <div><span>&#8226;</span><a href="#israel">israel</a></div>
+          <div><span>&#8226;</span><a href="#utah">utah</a></div>
+          <div><span>&#8226;</span><a href="#peru">peru</a></div>
+          <div><span>&#8226;</span><a href="#alaska">alaska</a></div>
+        </div>
       </SubtitleContainer>
       <PhotosContainer>
         {

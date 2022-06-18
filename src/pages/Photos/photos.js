@@ -31,8 +31,180 @@ import eiffel from '../../photos/eiffel.jpeg'
 import ronda from '../../photos/ronda.jpeg'
 import miami from '../../photos/miami.jpeg'
 
+import arienzo from '../../photos/arienzo.jpeg'
+import amalfi from '../../photos/amalfi.jpeg'
+import montepulciano from '../../photos/montepulciano.jpeg'
+import firenze from '../../photos/firenze.jpeg'
+import dr from '../../photos/dr.jpeg'
+import avare from '../../photos/avare.jpeg'
+import rio from '../../photos/rio.jpeg'
+import pc from '../../photos/pc.jpeg'
+import nebraska from '../../photos/nebraska.jpeg'
+import porto from '../../photos/porto.jpeg'
+import amsterdam from '../../photos/amsterdam.jpeg'
+import bruges from '../../photos/bruges.jpeg'
+import chicago from '../../photos/chicago.jpeg'
+import maui from '../../photos/maui.jpeg'
+import hana from '../../photos/hana.jpeg'
+import volcano from '../../photos/volcano.jpeg'
+import waimea from '../../photos/waimea.jpeg'
+import waterfall from '../../photos/waterfall.jpeg'
+import monadnock from '../../photos/monadnock.jpeg'
+import jurassic from '../../photos/jurassic.jpeg'
+import redwoods from '../../photos/redwoods.jpeg'
+import santa_cruz from '../../photos/santa_cruz.jpeg'
+import cape_cod from '../../photos/cape_cod.jpeg'
+import sc from '../../photos/sc.jpeg'
+
 
 const photos = [
+  {
+    image: arienzo,
+    location: 'Positano, Italy',
+    caption: "The Arienzo Beach Club, which makes for a marvelous beach day.",
+    year: 2022,
+    id: "italy",
+  },
+  {
+    image: amalfi,
+    location: "Amalfi, Italy",
+    caption: "View of Amalfi from the water.",
+    year: 2022,
+  },
+  {
+    image: montepulciano,
+    location: "Montepulciano, Italy",
+    caption: "A building in this picturesque hilltop town famous for its wines.",
+    year: 2022,
+  },
+  {
+    image: firenze,
+    location: "Firenze, Italy",
+    caption: "The River Arno at sunset.",
+    year: 2022,
+  },
+  {
+    image: dr,
+    location: "Samaná, Dominican Republic",
+    caption: "Spring break 2022 in the DR.",
+    year: 2022,
+  },
+  {
+    image: avare,
+    location: "Avare, Brazil",
+    caption: "Taken on a lovely cycle through the countryside outside of Avare.",
+    year: 2022,
+    id: 'brazil',
+  },
+  {
+    image: rio,
+    location: "Rio de Janeiro, Brazil",
+    caption: "The mountain-meets-ocean landscape in Rio blew my mind.",
+    year: 2022,
+  },
+  {
+    image: pc,
+    location: "Park City, UT",
+    caption: "My first time skiing the Rockies was a smashing (pun intended) success.",
+    year: 2021,
+  },
+  {
+    image: nebraska,
+    location: "Nebraska",
+    caption: "Things I learned driving across the country: (1) Nebraska is reallllyyy wide.",
+    year: 2021,
+  },
+  {
+    image: porto,
+    location: "Porto, Portugal",
+    caption: "I only spent 24 hours here, and it already began to rival Lisbon.",
+    year: 2021,
+  },
+  {
+    image: amsterdam,
+    location: "Amsterdam, Netherlands",
+    caption: "What a sick city. I'll be back.",
+    year: 2021,
+  },
+  {
+    image: bruges,
+    location: "Bruges, Belgium",
+    caption: "We ate all the Belgian essentials here: waffles, fries, and brats.",
+    year: 2021,
+  },
+  {
+    image: chicago,
+    location: "Chicago, IL",
+    caption: "A ridiculous sunset over downtown.",
+    year: 2021,
+  },
+  {
+    image: maui,
+    location: "Maui, HI",
+    caption: "The Iao Valley is one of the wettest places on earth, evidenced by the ridiculous green color of everything.",
+    year: 2021,
+    id: 'hawaii',
+  },
+  {
+    image: hana,
+    location: "Hana, HI",
+    caption: "A black sand beach makes for some dramatic photos.",
+    year: 2021,
+  },
+  {
+    image: volcano,
+    location: "Haleakala, HI",
+    caption: "A dramatic hike took us down into the crater of this dormant volcano. Only drawback? We had to hike up and out as well.",
+    year: 2021,
+  },
+  {
+    image: waimea,
+    location: "Waimea Bay, HI",
+    caption: "Ridiculous luck both finding this cliff jumping spot and getting this sunset.",
+    year: 2021,
+  },
+  {
+    image: waterfall,
+    location: "Oahu, HI",
+    caption: "Our hike to Lulumahu Falls was the first thing we did in Hawaii, and it set the standard for the rest of the trip.",
+    year: 2021,
+  },
+  {
+    image: monadnock,
+    location: "Mount Monadnock, NH",
+    caption: "A steep, rocky climb that rewards you with sweeping views.",
+    year: 2021,
+  },
+  {
+    image: jurassic,
+    location: "Redwoods, CA",
+    caption: "This fern valley was used to film Jurassic Park.",
+    year: 2020,
+  },
+  {
+    image: redwoods,
+    location: "Redwoods, CA",
+    caption: "Trees. Big. Freaking. Trees.",
+    year: 2020,
+  },
+  {
+    image: santa_cruz,
+    location: "Santa Cruz, CA",
+    caption: "A surfer who is much cooler than me ends his day at sunset.",
+    year: 2020,
+  },
+  {
+    image: cape_cod,
+    location: "Provincetown, MA",
+    caption: "A lonely lighthouse at the end of Cape Cod.",
+    year: 2020,
+  },
+  {
+    image: sc,
+    location: "Seabrook Island, SC",
+    caption: "My first of many Airbnbs over my gap year was on this beautiful, marshy island.",
+    year: 2020,
+  },
   {
     image: nevada_sunset,
     location: "Interstate 95 near Lovelock, NV",

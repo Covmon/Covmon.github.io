@@ -8,13 +8,18 @@ export const Container = styled.div`
   display: flex;  
   flex-direction: column;  
   align-items: flex-start;  
-  padding: 5px 20px;  margin: 20px 30px 20px 0;  
+  padding: 5px 20px;
+  margin: 20px 30px 20px 0;  
   box-shadow: 0 10px 15px #171b21;  
   cursor: pointer;  
   border-radius: 3px; 
 
   &:hover { 
     background-color: ${props => props.highlight ? 'rgba(243,198,35,0.33)' : '#424852'};  
+  }
+
+  @media only screen and (max-width: 800px) {
+    margin-right: 0;
   }
 `
 

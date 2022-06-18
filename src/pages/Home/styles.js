@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
 export const PageContainer = styled.div`
-display: flex;flex-direction: column;width: 100%;`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`
 
 export const TitleContainer = styled.div`
   display: flex;
@@ -19,6 +22,10 @@ export const TitleContainer = styled.div`
 
   span {  
     color: #32e0c4;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 20px 40px;
   }
 `
 
@@ -44,6 +51,10 @@ export const SubtitleContainer = styled.div`
       box-shadow: inset 0 -.45em 0 rgba(243,198,35, 0.5); 
     }
   }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 20px 40px;
+  }
 `
 
 export const AboutContainer = styled.div`
@@ -52,6 +63,15 @@ export const AboutContainer = styled.div`
   color: #eeeeee;
   background-color: #222831;
   padding: 40px 120px;
+
+  @media only screen and (max-width: 1000px) {
+    padding: 20px 40px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const AboutText = styled.div`
@@ -79,6 +99,11 @@ export const AboutText = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    padding: 0;
+    margin: 0;
+  }
 `
 
 export const Buttons = styled.div`
@@ -88,6 +113,11 @@ export const Buttons = styled.div`
 export const ProfileImage = styled.img`
   width: 22%;
   height: 33%;
+
+  @media only screen and (max-width: 800px) {
+    width: 60%;
+    height: 90%;
+  }
 `
 
 export const PortfolioContainer = styled.div`
@@ -100,11 +130,25 @@ export const PortfolioContainer = styled.div`
   h1 {  
     font-size: 24px;
   }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 20px 40px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    align-items: center;
+  }
+  
 `
 
 export const PortfolioItems = styled.div`
   display: flex;
   flex-wrap: wrap;
+  
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const ContactContainer = styled.div`
@@ -133,6 +177,11 @@ export const ContactContainer = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 1000px) {
+    padding: 80px 40px;
+  }
+  
 `
 
 export const Socials = styled.div`

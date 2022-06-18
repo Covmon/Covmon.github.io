@@ -21,24 +21,28 @@ const Home = () => (
       <h1>I'M <span>NOAH COVEY 👋</span></h1>
     </TitleContainer>
     <SubtitleContainer>
-      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and lead developer <a href="http://carriersource.io" target="_blank">@CarrierSource</a></h3>
+      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and engineering intern <a href="http://mercury.com" target="_blank">@Mercury</a></h3>
     </SubtitleContainer>
     <AboutContainer>
       <AboutText>
         <p>
-          I'm Noah Covey 😄, a sophomore on leave from Harvard College. Currently, I'm the lead developer at <a href="http://carriersource.io" target="_blank">CarrierSource</a>,
-          an early-stage startup whose goal is to bring transparency and intelligence to the logistics industry through reviews, big data, and user-centric design. I am also 
-          currently a business development intern at RF Imaging company <a href="http://vayyar.com" target="_blank">Vayyar</a>.
+          I'm Noah Covey 😄, a junior at Harvard College. Currently, I'm a fullstack engineering intern 
+          at <a href="https://mercury.com" target="_blank">Mercury</a>, the banking stack for startups. I'm working on 
+          debit and credit cards, mastering Haskell, and falling in love with high growth startup-land.
         </p>
         <p>
-          Previously, I've worked as a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
+          Over my gap year (early 2020 through late 2021), I was the interim CTO at <a href="http://carriersource.io" target="_blank">CarrierSource</a>,
+          an early-stage logistics startup whose goal is to bring transparency and intelligence to the freight industry through reviews, big data, and user-centric design.
+          I've also previously worked as a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
           done VR/AR research at the <a href="https://gtri.gatech.edu" target="_blank">Georgia Tech 
           Research Institute</a>, and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
         </p>
         <p>
           I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
-          and all things music 🎶. (My band <a href="https://youtu.be/wfoVsbOhEqA" target="_blank">Lucy and the Glassmen</a>'s EP is out soon!) I love exploring the world and all the thrills it offers; from canoeing in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, 
-          I'm always on the lookout for my next <Link to="/photos">adventure</Link>. I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
+          and all things music 🎶. (My band <a href="https://youtu.be/wfoVsbOhEqA" target="_blank">Lucy and the Glassmen</a>'s EP
+          is  <a href="https://li.sten.to/P47HgTi" target="_blank">streaming now!</a>) I love exploring the world and all the thrills it offers; from canoeing 
+          in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, I'm always on the lookout for my next <Link to="/photos">adventure</Link>. 
+          I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
         <Buttons>
           <a href={process.env.PUBLIC_URL + "/resume.pdf"} target="_blank">
@@ -56,7 +60,7 @@ const Home = () => (
       <h1>Check out some of my work 🖥</h1>
       <PortfolioItems>
         <PortfolioItem 
-          title="Carrier Source" 
+          title="CarrierSource" 
           description="Logistics platform for brokers to search through hundreds of thousands of trucking carriers, and for carriers to manage their reviews and company profile."
           link="https://carriersource.io"
           highlight
@@ -112,7 +116,7 @@ const Home = () => (
       </Socials>
     </ContactContainer>
     <Footer>
-      designed and built by me // last updated Oct 2020
+      designed and built by me // last updated Jun 2022
     </Footer>
   </PageContainer>
 )
