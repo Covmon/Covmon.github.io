@@ -7,13 +7,6 @@ export const Container = styled.div`
  margin-right: 20px;
 `
 
-export const Photo = styled.img`
- box-sizing: border-box;
- height: 300px;
- width: auto;
- max-width: 500px;
-`
-
 export const Location = styled.div`
  display: flex;
  justify-content: space-between;

@@ -21,27 +21,26 @@ const Home = () => (
       <h1>I'M <span>NOAH COVEY 👋</span></h1>
     </TitleContainer>
     <SubtitleContainer>
-      <h3>applied math + cs student <a href="https://harvard.edu" target="_blank" >@Harvard</a> and engineering intern <a href="http://mercury.com" target="_blank">@Mercury</a></h3>
+      <h3>applied math, cs, and statistics student <a href="https://harvard.edu" target="_blank" >@Harvard</a></h3>
     </SubtitleContainer>
     <AboutContainer>
       <AboutText>
         <p>
-          I'm Noah Covey 😄, a junior at Harvard College. Currently, I'm a fullstack engineering intern 
-          at <a href="https://mercury.com" target="_blank">Mercury</a>, the banking stack for startups. I'm working on 
-          debit and credit cards, mastering Haskell, and falling in love with high growth startup-land.
+          I'm Noah Covey 😄, a senior at Harvard College. Most recently, I was a Strategy and Product Intern at Jane
+          Street, the high-tech quantitative trading firm. I love building things, and have worked for and plan to work on
+          startups. Academically, I'm extremely interested in in machine learning and data science; my current favorite class
+          is <a href="https://mit-6861.github.io/" target="_blank">Quant Methods for NLP at MIT</a>.
         </p>
         <p>
-          Over my gap year (early 2020 through late 2021), I was the interim CTO at <a href="http://carriersource.io" target="_blank">CarrierSource</a>,
+          Previously, I did fullstack engineering at <a href="https://mercury.com" target="_blank">Mercury</a>.
+          Over my gap year, I was the interim CTO at <a href="http://carriersource.io" target="_blank">CarrierSource</a>,
           an early-stage logistics startup whose goal is to bring transparency and intelligence to the freight industry through reviews, big data, and user-centric design.
-          I've also previously worked as a full-stack software engineer at Harvard Student Agencies' <a href="http://hsadev.com" target="_blank">DEV</a>,
-          done VR/AR research at the <a href="https://gtri.gatech.edu" target="_blank">Georgia Tech 
-          Research Institute</a>, and developed independent <a href="https://bit.ly/duskfall" target="_blank">mobile games</a> 🎮.
         </p>
         <p>
-          I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹, learning guitar 🎸, writing and recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
-          and all things music 🎶. (My band <a href="https://youtu.be/wfoVsbOhEqA" target="_blank">Lucy and the Glassmen</a>'s EP
-          is  <a href="https://li.sten.to/P47HgTi" target="_blank">streaming now!</a>) I love exploring the world and all the thrills it offers; from canoeing 
-          in the Amazon 🌴 to skydiving 🛩 in my hometown of Atlanta, I'm always on the lookout for my next <Link to="/photos">adventure</Link>. 
+          I love playing <a href="https://youtu.be/DLCu5QLxaxc" target="_blank">piano</a> 🎹 and guitar 🎸, writing and
+          recording <a href="https://soundcloud.com/noahcovey" target="_blank">songs</a>, 
+          and <a href="https://drive.google.com/file/d/1WV7v1rJ9vIGJTrodmOHJHZIZxipVSuHS/view?usp=share_link" target="_blank">performing music.</a> (My 
+          band's EP is <a href="https://li.sten.to/P47HgTi" target="_blank">streaming now!</a>).
           I'm also a tennis player 🎾 and a diehard Atlanta Falcons fan 🏈.
         </p>
         <Buttons>
@@ -59,6 +58,12 @@ const Home = () => (
     <PortfolioContainer>
       <h1>Check out some of my work 🖥</h1>
       <PortfolioItems>
+        <PortfolioItem
+          title="Mercury x GSuite"
+          description="Implemented full-stack Google integration for Google, allowing startups to bulk-invite and issue credit cards to their employees."
+          link="https://drive.google.com/file/d/1tINAuD7rUz4noLDoVEHeCpBSlS03YVls/view?usp=sharing"
+          highlight
+        />
         <PortfolioItem 
           title="CarrierSource" 
           description="Logistics platform for brokers to search through hundreds of thousands of trucking carriers, and for carriers to manage their reviews and company profile."
@@ -74,7 +79,6 @@ const Home = () => (
         <PortfolioItem
           title="Duskfall"
           description="Peaceful mobile game published by Nanovation Labs, featured on the App Store in 150+ countries, and 75,000 downloads."
-          highlight
           link="https://bit.ly/duskfall"/>
         <PortfolioItem
           title="Gravity Dunk"
@@ -91,11 +95,11 @@ const Home = () => (
           description="My first mobile game: players fall through the air, timing their taps and tilts to avoid as many obstacles as possible."
           link="https://www.11alive.com/article/life/dunwoody-high-school-freshman-creates-5-star-app/68715508"
         />
-        <PortfolioItem
+        {/* <PortfolioItem
           title="Colors of Atlanta"
           description="Documentary exploring controversies over public art in the U.S., with interviews with Atlanta artists, arts organizers, and city officials."
           link="https://youtu.be/AOi88VoEP7M"
-        />
+        /> */}
         <PortfolioItem
           title="Travel Photos"
           description="Select photos from some of my travel adventures around the country and world."
@@ -116,7 +120,7 @@ const Home = () => (
       </Socials>
     </ContactContainer>
     <Footer>
-      designed and built by me // last updated Jun 2022
+      designed and built by me // last updated Oct 2023
     </Footer>
   </PageContainer>
 )
