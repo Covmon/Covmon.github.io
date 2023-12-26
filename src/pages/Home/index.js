@@ -59,6 +59,13 @@ const Home = () => (
       <h1>Check out some of my work 🖥</h1>
       <PortfolioItems>
         <PortfolioItem
+          title="Dante Commentary Hub"
+          description="Collaborative commentary on the Divine Comedy, featuring cross-canto highlights, replies, canto-speciifc artwork, and more."
+          link="https://divine-comedy-commentary-hub.web.app/"
+          highlight
+          smallTitle
+        />
+        <PortfolioItem
           title="Mercury x GSuite"
           description="Implemented full-stack Google integration for Google, allowing startups to bulk-invite and issue credit cards to their employees."
           link="https://drive.google.com/file/d/1tINAuD7rUz4noLDoVEHeCpBSlS03YVls/view?usp=sharing"
@@ -100,12 +107,12 @@ const Home = () => (
           description="Documentary exploring controversies over public art in the U.S., with interviews with Atlanta artists, arts organizers, and city officials."
           link="https://youtu.be/AOi88VoEP7M"
         /> */}
-        <PortfolioItem
+        {/* <PortfolioItem
           title="Travel Photos"
           description="Select photos from some of my travel adventures around the country and world."
           link="/photos"
           internal
-          />
+          /> */}
       </PortfolioItems>
     </PortfolioContainer>
     <ContactContainer id="contact">

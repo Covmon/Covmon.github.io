@@ -4,7 +4,7 @@ import { Container, Title, Description } from './styles'
 
 import { useHistory } from 'react-router-dom'
 
-const PortfolioItem = ({ title, description,highlight, internal, link }) => {
+const PortfolioItem = ({ title, description,highlight, internal, link, smallTitle }) => {
   const history = useHistory()
 
   return (
@@ -17,7 +17,7 @@ const PortfolioItem = ({ title, description,highlight, internal, link }) => {
         }
       }
     >
-      <Title > {title}</Title>
+      <Title small={smallTitle}> {title}</Title>
       <Description>{description}</Description>
     </Container>
   )

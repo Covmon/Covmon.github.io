@@ -25,9 +25,10 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   font-family: 'Roboto Mono';  
-  font-size: 28px;  
+  font-size: ${props => props.small ? '20px !important' : '28px'};  
   color: #2cc9b0;  
   box-shadow: inset 0 -.45em 0 rgba(44,201,176, 0.5);
+  white-space: nowrap;
 `
 
 export const Description = styled.p`
