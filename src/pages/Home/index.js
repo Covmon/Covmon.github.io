@@ -26,10 +26,16 @@ const Home = () => (
     <AboutContainer>
       <AboutText>
         <p>
-          I'm Noah Covey 😄, a senior at Harvard College. Most recently, I was a Strategy and Product Intern at Jane
-          Street, the high-tech quantitative trading firm. I love building things, and have worked for and plan to work on
-          startups. Academically, I'm extremely interested in in machine learning and data science; my current favorite class
+          I'm Noah Covey 😄, a senior at Harvard College. Most recently, I was a Strategy and Product Intern at <a href="https://janestreet.com" target="_blank">Jane Street</a>, 
+          the high-tech quantitative trading firm. I love building things, and have worked for and plan to work on
+          startups. I'm extremely interested in in machine learning and data science; my current favorite class
           is <a href="https://mit-6861.github.io/" target="_blank">Quant Methods for NLP at MIT</a>.
+        </p>
+        <p>
+          I served as President of <a href="https://harvardventures.org" target="_blank">Harvard Ventures</a>, Harvard's largest 
+          entrepreneurship club. During my tenure, I started an annual NYC Summit, brought speakers including Vinod Khosla (Khosla Ventures), 
+          Sarah Leary (Nextdoor), Spencer Rascoff (Zillow), and John Capodilupo (Whoop) to campus, and through our accelerator VentureWorks supported over a dozen teams, 
+          leading to multiple YC acceptances and 2 Thiel Fellows.
         </p>
         <p>
           Previously, I did fullstack engineering at <a href="https://mercury.com" target="_blank">Mercury</a>.
@@ -127,7 +133,7 @@ const Home = () => (
       </Socials>
     </ContactContainer>
     <Footer>
-      designed and built by me // last updated Oct 2023
+      designed and built by me // last updated Mar 2024
     </Footer>
   </PageContainer>
 )
