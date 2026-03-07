@@ -12,16 +12,17 @@ export const TitleContainer = styled.div`
   padding: 20px 120px;
   font-family: 'Roboto Mono';
   font-size: 28px;
-  color: #222831;
-  background-color: #eeeeee;
-  border-bottom: 13px solid #32e0c4;
+  color: ${({ theme }) => theme.heroText};
+  background-color: ${({ theme }) => theme.heroBg};
+  min-height: 160px;
+  justify-content: center;
 
-  h1 {  
+  h1 {
     margin: 5px 0;
   }
 
-  span {  
-    color: #32e0c4;
+  span {
+    color: ${({ theme }) => theme.accentLight};
   }
 
   @media only screen and (max-width: 1000px) {
@@ -32,23 +33,21 @@ export const TitleContainer = styled.div`
 export const SubtitleContainer = styled.div`
   display: flex;
   flex-direction: column;
-  border-top: 13px solid #2cc9b0;
-  color: #eeeeee;
+  color: ${({ theme }) => theme.text};
   padding: 20px 120px;
-  background-color: #393e46;
-  border-bottom: 13px solid #f3c623;
+  background-color: ${({ theme }) => theme.bgAlt};
 
-  h3 {  
+  h3 {
     margin: 5px 0;
   }
 
-  a {  
-    color: #f3c623;  
-    text-decoration: none;  
-    transition: 0.25s all; 
+  a {
+    color: ${({ theme }) => theme.gold};
+    text-decoration: none;
+    transition: 0.25s all;
 
-    &:hover {    
-      box-shadow: inset 0 -.45em 0 rgba(243,198,35, 0.5); 
+    &:hover {
+      box-shadow: inset 0 -.45em 0 ${({ theme }) => theme.linkHoverShadow};
     }
   }
 
@@ -59,9 +58,8 @@ export const SubtitleContainer = styled.div`
 
 export const AboutContainer = styled.div`
   display: flex;
-  border-top: 13px solid #dbb31f;
-  color: #eeeeee;
-  background-color: #222831;
+  color: ${({ theme }) => theme.text};
+  background-color: ${({ theme }) => theme.bg};
   padding: 40px 120px;
 
   @media only screen and (max-width: 1000px) {
@@ -83,19 +81,19 @@ export const AboutText = styled.div`
   margin-right: 40px;
 
   a {
-    color: white;
+    color: ${({ theme }) => theme.text};
     text-decoration: none;
   }
 
-  p {  
+  p {
     margin: 0 0 20px 0;
 
-    a {  
-      color: #f3c623; 
-      transition: 0.25s all; 
+    a {
+      color: ${({ theme }) => theme.gold};
+      transition: 0.25s all;
 
-      &:hover { 
-        box-shadow: inset 0 -.45em 0 rgba(243,198,35, 0.5);  
+      &:hover {
+        box-shadow: inset 0 -.45em 0 ${({ theme }) => theme.linkHoverShadow};
       }
     }
   }
@@ -113,6 +111,7 @@ export const Buttons = styled.div`
 export const ProfileImage = styled.img`
   width: 22%;
   height: 33%;
+  border-radius: 8px;
 
   @media only screen and (max-width: 800px) {
     width: 60%;
@@ -123,11 +122,11 @@ export const ProfileImage = styled.img`
 export const PortfolioContainer = styled.div`
   display: flex;
   flex-direction: column;
-  color: #eeeeee;
-  background-color: #222831;
+  color: ${({ theme }) => theme.text};
+  background-color: ${({ theme }) => theme.bg};
   padding: 40px 120px;
 
-  h1 {  
+  h1 {
     font-size: 24px;
   }
 
@@ -138,13 +137,12 @@ export const PortfolioContainer = styled.div`
   @media only screen and (max-width: 800px) {
     align-items: center;
   }
-  
 `
 
 export const PortfolioItems = styled.div`
   display: flex;
   flex-wrap: wrap;
-  
+
   @media only screen and (max-width: 800px) {
     flex-direction: column;
     align-items: center;
@@ -155,25 +153,24 @@ export const ContactContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color: #eeeeee;
-  background-color: #222831;
+  color: ${({ theme }) => theme.text};
+  background-color: ${({ theme }) => theme.bg};
   padding: 40px 120px 200px 120px;
-  border-bottom: 13px solid #32e0c4;
-  
+
   h1 {
     font-size: 24px;
   }
 
-  h3 {  
+  h3 {
     font-size: 20px;
 
     a {
       text-decoration: none;
-      color: #f3c623; 
-      transition: 0.25s all; 
+      color: ${({ theme }) => theme.gold};
+      transition: 0.25s all;
 
-      &:hover { 
-        box-shadow: inset 0 -0.45em 0 rgba(243,198,35, 0.5);  
+      &:hover {
+        box-shadow: inset 0 -0.45em 0 ${({ theme }) => theme.linkHoverShadow};
       }
     }
   }
@@ -181,22 +178,25 @@ export const ContactContainer = styled.div`
   @media only screen and (max-width: 1000px) {
     padding: 80px 40px;
   }
-  
 `
 
 export const Socials = styled.div`
   display: flex;
 
-  >* {
+  > a {
     margin-right: 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+    }
   }
 `
 
 export const Footer = styled.div`
   display: flex;
   justify-content: center;
-  border-top: 13px solid #2cc9b0;
-  color: #eeeeee;padding: 20px 120px;
-  background-color: #393e46;
+  color: ${({ theme }) => theme.text};
+  background-color: ${({ theme }) => theme.bgAlt};
   padding: 45px;
 `
