@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 275px;
-  height: 220px;
+  min-height: 220px;
   background: ${({ theme, highlight }) => highlight ? theme.cardHighlight : theme.glassBg};
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);

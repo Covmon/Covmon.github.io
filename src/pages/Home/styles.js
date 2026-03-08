@@ -110,12 +110,12 @@ export const Buttons = styled.div`
 
 export const ProfileImage = styled.img`
   width: 22%;
-  height: 33%;
+  height: auto;
+  object-fit: cover;
   border-radius: 8px;
 
   @media only screen and (max-width: 800px) {
-    width: 60%;
-    height: 90%;
+    width: 85%;
   }
 `
 
