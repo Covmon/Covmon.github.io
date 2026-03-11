@@ -4,6 +4,7 @@ export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  overflow-x: hidden;
 `
 
 export const TitleContainer = styled.div`
@@ -76,5 +77,6 @@ export const PhotosContainer = styled.div`
   @media only screen and (max-width: 600px) {
     flex-direction: column;
     align-items: center;
+    padding: 20px 16px;
   }
 `
