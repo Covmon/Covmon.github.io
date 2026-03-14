@@ -15,6 +15,17 @@ export const Container = styled.div`
   &:hover img {
     transform: scale(1.03);
   }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+
+    img, .lazy-load-image-background {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
 `
 
 export const Location = styled.div`
